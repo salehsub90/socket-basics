@@ -19,7 +19,7 @@ io.on('connection', function (socket) { //socket: some individual connection
 		text: 'Welcome to the chat application!'
 	});
 }); //listen for events
-
+  
 http.listen(PORT, function () {
 	console.log('Server Started!');
 });
